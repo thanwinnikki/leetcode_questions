@@ -19,6 +19,9 @@ class solution {
     return printString;
   }
 
+/* The idea is to traverse through the two lists while maintaining a carry variable.
+ We stop doing the while loop when both lists come to an end. Cover the cases for when the lists are unequal in length.
+ Cover the edge case for when the while loop ends, but there is a carry left over - when the last 2 digits in the linked list is 9 and 9.*/
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     int carry = 0;
     ListNode resultFirst = new ListNode(0);
