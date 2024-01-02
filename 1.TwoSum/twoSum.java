@@ -1,6 +1,8 @@
 import java.util.HashMap;
 import java.util.Arrays;
 
+// Hashmap solution, this is fast but O(n) space used.
+
 class twoSum {
 
     public int[] targetFinder(int[] input, int target) {
